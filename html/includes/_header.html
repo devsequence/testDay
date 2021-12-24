@@ -1,0 +1,278 @@
+<header class="header" id="header">
+    <div class="container">
+        <div class="header-nav">
+            <ul>
+                <li class="has-sub">
+                    <a href="#">КАТАЛОГ</a>
+                </li>
+                <li><a href="#">SALE</a></li>
+                <li><a href="#">ОПТ</a></li>
+                <li><a href="#">О НАС</a></li>
+                <li><a href="#">ОТЗЫВЫ</a></li>
+                <li><a href="#">ДОСТАВКА И ОПЛАТА</a></li>
+                <li><a href="#">КОНТАКТЫ</a></li>
+            </ul>
+        </div>
+        <div class="header-logo">
+            <a href="#"><img src="../static/images/general/logo.svg" alt=""></a>
+        </div>
+        <div class="header-buttons">
+            <a href="#" class="btn-header btn-search">
+                <svg class="icon">
+                    <use xlink:href="#ic-search"></use>
+                </svg>
+            </a>
+            <a href="#" class="btn-header">
+                <svg class="icon">
+                    <use xlink:href="#ic-heart"></use>
+                </svg>
+            </a>
+            <a href="#" class="btn-header">
+                <svg class="icon">
+                    <use xlink:href="#ic-cart"></use>
+                </svg>
+            </a>
+            <a href="#" class="btn-user btn-popup" data-popup="login">
+                <svg class="icon">
+                    <use xlink:href="#ic-user"></use>
+                </svg>
+            </a>
+            <a href="#" class="btn-nav">
+                <span></span>
+            </a>
+        </div>
+    </div>
+    <div class="header-search">
+        <div class="search-close"></div>
+        <div class="header-search__form">
+            <form>
+                <label class="label-search">
+                    <input class="input-search" type="text" placeholder="Поиск..."  required>
+                </label>
+            </form>
+        </div>
+        <div class="header-search__result">
+            <div class="header-search__title">
+                Возможно вы ищите:
+            </div>
+            <div class="result-wrap">
+                @@include('./_product-item.html')
+                @@include('./_product-item.html')
+                @@include('./_product-item.html')
+                @@include('./_product-item.html')
+
+                @@include('./_product-item.html')
+                @@include('./_product-item.html')
+                @@include('./_product-item.html')
+                @@include('./_product-item.html')
+            </div>
+        </div>
+    </div>
+    <div class="header-catalog">
+        <div class="catalog-tab">
+            <ul class="catalog-tab__nav tab-nav">
+                <li>
+                    <a href="#" class="btn btn-default active" data-tab="catalog-1">Мужская одежда</a>
+                </li>
+                <li>
+                    <a href="#" class="btn btn-default" data-tab="catalog-2">Женская одежда</a>
+                </li>
+                <li>
+                    <a href="#" class="btn btn-default" data-tab="catalog-3">Детская одежда</a>
+                </li>
+            </ul>
+            <div class="catalog-tab__inner">
+                <div class="tab-item active" data-tab="catalog-1">
+                    <div class="catalog-item">
+                        <div class="catalog-item__title">Верхняя одежда</div>
+                        <ul class="catalog-item__list">
+                            <li>
+                                <a href="#">Футболки ПОЛО </a>
+                            </li>
+                            <li>
+                                <a href="#">Лоргсливы</a>
+                            </li>
+                            <li>
+                                <a href="#">Свитшоте Регланы</a>
+                            </li>
+                            <li>
+                                <a href="#">Толстовки Худи </a>
+                            </li>
+                            <li>
+                                <a href="#">Анораки Ветровки</a>
+                            </li>
+                            <li>
+                                <a href="#">Спортивные штаны</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item__title">Штаны</div>
+                        <ul class="catalog-item__list">
+                            <li>
+                                <a href="#">Футболки ПОЛО </a>
+                            </li>
+                            <li>
+                                <a href="#">Лоргсливы</a>
+                            </li>
+                            <li>
+                                <a href="#">Свитшоте Регланы</a>
+                            </li>
+                            <li>
+                                <a href="#">Толстовки Худи </a>
+                            </li>
+                            <li>
+                                <a href="#">Анораки Ветровки</a>
+                            </li>
+                            <li>
+                                <a href="#">Спортивные штаны</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item__title">Аксессуары</div>
+                        <ul class="catalog-item__list">
+                            <li>
+                                <a href="#">Футболки ПОЛО </a>
+                            </li>
+                            <li>
+                                <a href="#">Лоргсливы</a>
+                            </li>
+                            <li>
+                                <a href="#">Свитшоте Регланы</a>
+                            </li>
+                            <li>
+                                <a href="#">Толстовки Худи </a>
+                            </li>
+                            <li>
+                                <a href="#">Анораки Ветровки</a>
+                            </li>
+                            <li>
+                                <a href="#">Спортивные штаны</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-item" data-tab="catalog-2">
+                    <div class="catalog-item">
+                        <div class="catalog-item__title">Аксессуары</div>
+                        <ul class="catalog-item__list">
+                            <li>
+                                <a href="#">Футболки ПОЛО </a>
+                            </li>
+                            <li>
+                                <a href="#">Лоргсливы</a>
+                            </li>
+                            <li>
+                                <a href="#">Свитшоте Регланы</a>
+                            </li>
+                            <li>
+                                <a href="#">Толстовки Худи </a>
+                            </li>
+                            <li>
+                                <a href="#">Анораки Ветровки</a>
+                            </li>
+                            <li>
+                                <a href="#">Спортивные штаны</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item__title">Штаны</div>
+                        <ul class="catalog-item__list">
+                            <li>
+                                <a href="#">Футболки ПОЛО </a>
+                            </li>
+                            <li>
+                                <a href="#">Лоргсливы</a>
+                            </li>
+                            <li>
+                                <a href="#">Свитшоте Регланы</a>
+                            </li>
+                            <li>
+                                <a href="#">Толстовки Худи </a>
+                            </li>
+                            <li>
+                                <a href="#">Анораки Ветровки</a>
+                            </li>
+                            <li>
+                                <a href="#">Спортивные штаны</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item__title">Верхняя одежда</div>
+                        <ul class="catalog-item__list">
+                            <li>
+                                <a href="#">Футболки ПОЛО </a>
+                            </li>
+                            <li>
+                                <a href="#">Лоргсливы</a>
+                            </li>
+                            <li>
+                                <a href="#">Свитшоте Регланы</a>
+                            </li>
+                            <li>
+                                <a href="#">Толстовки Худи </a>
+                            </li>
+                            <li>
+                                <a href="#">Анораки Ветровки</a>
+                            </li>
+                            <li>
+                                <a href="#">Спортивные штаны</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab-item" data-tab="catalog-3">
+                    <div class="catalog-item">
+                        <div class="catalog-item__title">Штаны</div>
+                        <ul class="catalog-item__list">
+                            <li>
+                                <a href="#">Футболки ПОЛО </a>
+                            </li>
+                            <li>
+                                <a href="#">Лоргсливы</a>
+                            </li>
+                            <li>
+                                <a href="#">Свитшоте Регланы</a>
+                            </li>
+                            <li>
+                                <a href="#">Толстовки Худи </a>
+                            </li>
+                            <li>
+                                <a href="#">Анораки Ветровки</a>
+                            </li>
+                            <li>
+                                <a href="#">Спортивные штаны</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item__title">Аксессуары</div>
+                        <ul class="catalog-item__list">
+                            <li>
+                                <a href="#">Футболки ПОЛО </a>
+                            </li>
+                            <li>
+                                <a href="#">Лоргсливы</a>
+                            </li>
+                            <li>
+                                <a href="#">Свитшоте Регланы</a>
+                            </li>
+                            <li>
+                                <a href="#">Толстовки Худи </a>
+                            </li>
+                            <li>
+                                <a href="#">Анораки Ветровки</a>
+                            </li>
+                            <li>
+                                <a href="#">Спортивные штаны</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

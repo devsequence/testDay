@@ -1,0 +1,201 @@
+<footer class="footer" id="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="footer-logo">
+                <a href="#">
+                    <img src="../static/images/general/logo-white.svg" alt="">
+                </a>
+            </div>
+            <div class="footer-item">
+                <div class="footer-title">
+                    О КОМПАНИИ
+                </div>
+                <ul class="footer-nav">
+                    <li>
+                        <a href="#">Доставка и оплата одежды</a>
+                    </li>
+                    <li>
+                        <a href="#">Опт</a>
+                    </li>
+                    <li>
+                        <a href="#">Политика конфиденциальности</a>
+                    </li>
+                    <li>
+                        <a href="#">О Нас</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <div class="footer-title">
+                    ЗАКАЗЧИКАМ
+                </div>
+                <ul class="footer-nav">
+                    <li>
+                        <a href="#">Личный кабинет</a>
+                    </li>
+                    <li>
+                        <a href="#">Возврат товара</a>
+                    </li>
+                    <li>
+                        <a href="#">История заказов</a>
+                    </li>
+                    <li>
+                        <a href="#">Обратная связь</a>
+                    </li>
+                    <li>
+                        <a href="#">Закладки</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <div class="footer-phone">
+                    <a href="tel:+380683460475" target="_blank">
+                        +38 068 346 04 75
+                    </a>
+                    <a href="tel:+380664003814" target="_blank">
+                        +38 066 400 38 14
+                    </a>
+                </div>
+                <div class="footer-social">
+                    <ul>
+                        <li>
+                            <a href="#" target="_blank"><svg class="icon"><use xlink:href="#ic-viber"></use></svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank"><svg class="icon"><use xlink:href="#ic-telegrem"></use></svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank"><svg class="icon"><use xlink:href="#ic-whatsapp"></use></svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank"><svg class="icon"><use xlink:href="#ic-email"></use></svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank"><svg class="icon"><use xlink:href="#ic-fb"></use></svg></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank"><svg class="icon"><use xlink:href="#ic-ist"></use></svg></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="footer-copy">
+                © 2020 HECTOR Все права защищены
+            </div>
+            <div class="footer-bottom__link">
+                <a href="#">Политика конфиденциальности</a>
+                <a href="#">Условия продажи</a>
+            </div>
+            <div class="footer-development">
+                <a href="#" target="_blank">
+                    <span>
+                        Design and development
+                    </span>
+                    <img src="../static/images/general/development-logo.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="popup popup-login" data-popup="login">
+    <div class="popup-wrap">
+        <div class="popup-decor">
+            <div class="decor-1"></div>
+            <div class="decor-2"></div>
+        </div>
+        <div class="popup-close"></div>
+        <div class="popup-buttons">
+            <a href="#" class="btn-popup active" data-popup="login">ЛОГИН</a>
+            <a href="#" class="btn-popup" data-popup="register">РЕГИСТРАЦИЯ </a>
+        </div>
+        <div class="popup-form">
+            <form id="loginForm">
+                <label class="label">
+                    <input class="input" type="email" placeholder="Введите email" required>
+                    <span class="error">This field is required</span>
+                </label>
+                <label class="label">
+                    <input class="input" type="password" placeholder="Введите пароль" required>
+                    <span class="error">This field is required</span>
+                </label>
+                <button type="submit" class="btn-primary">
+                    ВОЙТИ
+                </button>
+                <a href="#" class="btn-popup btn-forgot" data-popup="forgot">Забыли пароль?</a>
+            </form>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
+</div>
+<div class="popup popup-forgot" data-popup="forgot">
+    <div class="popup-wrap">
+        <div class="popup-decor">
+            <div class="decor-1"></div>
+            <div class="decor-2"></div>
+        </div>
+        <div class="popup-close"></div>
+        <div class="popup-title">
+            ВОССТАНОВЛЕНИЕ ПАРОЛЯ
+        </div>
+        <div class="popup-form">
+            <form id="forgotForm">
+                <label class="label">
+                    <input class="input" type="email" placeholder="Введите email" required>
+                    <span class="error">This field is required</span>
+                </label>
+                <button type="submit" class="btn-primary">
+                    ВОССТАНОВИТЬ
+                </button>
+                <a href="#" class="btn-popup btn-forgot" data-popup="login">Войти</a>
+            </form>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
+</div>
+<div class="popup popup-register" data-popup="register">
+    <div class="popup-wrap">
+        <div class="popup-decor">
+            <div class="decor-1"></div>
+            <div class="decor-2"></div>
+        </div>
+        <div class="popup-close"></div>
+        <div class="popup-buttons">
+            <a href="#" class="btn-popup" data-popup="login">ЛОГИН</a>
+            <a href="#" class="btn-popup active" data-popup="register">РЕГИСТРАЦИЯ </a>
+        </div>
+        <div class="popup-form">
+            <form id="registerForm">
+                <label class="label">
+                    <input class="input" type="text" placeholder="Введите имя" required>
+                    <span class="error">This field is required</span>
+                </label>
+                <label class="label">
+                    <input class="input" type="text" placeholder="Ваш Город" required>
+                    <span class="error">This field is required</span>
+                </label>
+                <label class="label">
+                    <input class="input" type="tel" placeholder="Введите телефон" required>
+                    <span class="error">This field is required</span>
+                </label>
+                <label class="label">
+                    <input class="input" type="email" placeholder="Введите email" required>
+                    <span class="error">This field is required</span>
+                </label>
+                <label class="label">
+                    <input class="input" name="password" type="password" placeholder="Введите пароль" required>
+                </label>
+                <label class="label">
+                    <input class="input" name="password_confirm" type="password" placeholder="Подтвердите  пароль" required>
+                </label>
+                <button type="submit" class="btn-primary">
+                    ЗАРЕГИСТРИРОВАТЬСЯ
+                </button>
+            </form>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
+</div>

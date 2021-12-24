@@ -1,0 +1,48 @@
+.banner{
+  &-wrapper{
+    background: #F5F5F5;
+    padding: 30px 0;
+  }
+  &-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 -20px;
+  }
+  &-item{
+    width: calc(33.33% - 40px);
+    margin: 0 20px 30px;
+    display: flex;
+    align-items: center;
+    background: $white;
+    padding: 12px 0 0 0;
+    &__media{
+      height: 240px;
+      width: calc(100% - 10px);
+      img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        object-position: bottom;
+      }
+    }
+    &__desc{
+      padding: 0 10px 0 10px;
+    }
+    &__title{
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 37px;
+      letter-spacing: 0.07em;
+      color: $default;
+      margin-bottom: 15px;
+    }
+    &__text{
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.07em;
+      color: #0F0F0F;
+    }
+  }
+}
